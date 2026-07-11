@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Амин — Графический Дизайнер</title>
+<meta name="description" content="Амин — графический дизайнер. Инфографика, KV, обложки, презентации, оформление соцсетей и полиграфической продукции.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg-grid" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="logo">A08</a>
+    <nav class="main-nav" aria-label="Основная навигация">
+      <a href="#cases"><span class="nav-num">01</span> Мои кейсы</a>
+      <a href="#experience"><span class="nav-num">02</span> Опыт работы</a>
+      <a href="#about"><span class="nav-num">03</span> Обо мне</a>
+      <a href="#contacts"><span class="nav-num">04</span> Контакты</a>
+    </nav>
+    <a href="#contacts" class="btn btn-primary header-cta">Написать</a>
+    <button class="burger" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="#cases">01 Мои кейсы</a>
+  <a href="#experience">02 Опыт работы</a>
+  <a href="#about">03 Обо мне</a>
+  <a href="#contacts">04 Контакты</a>
+  <a href="#contacts" class="btn btn-primary">Написать</a>
+</div>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <svg class="blob blob-left" viewBox="0 0 220 220" aria-hidden="true">
+        <path d="M110 14c46 0 88 20 92 62 4 40-24 66-58 82-36 17-78 22-98-8-18-27-8-64 8-92 14-25 34-44 56-44z" />
+        <g class="stars">
+          <path d="M40 30 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z"/>
+          <path d="M170 60 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z"/>
+          <path d="M60 160 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z"/>
+        </g>
+      </svg>
+      <svg class="blob blob-right" viewBox="0 0 220 220" aria-hidden="true">
+        <path d="M110 14c46 0 88 20 92 62 4 40-24 66-58 82-36 17-78 22-98-8-18-27-8-64 8-92 14-25 34-44 56-44z" />
+        <g class="stars">
+          <path d="M40 30 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z"/>
+          <path d="M170 60 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z"/>
+          <path d="M60 160 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z"/>
+        </g>
+      </svg>
+
+      <div class="avatar-wrap">
+        <svg class="scribble scribble-1" viewBox="0 0 60 40" aria-hidden="true"><path d="M2 30 Q 15 2, 30 20 T 58 10"/></svg>
+        <svg class="scribble scribble-2" viewBox="0 0 40 40" aria-hidden="true"><path d="M2 2c20 0 20 36 36 20"/></svg>
+        <span class="star star-1">✦</span>
+        <span class="star star-2">✦</span>
+        <span class="heart">♡</span>
+        <div class="avatar">
+          <div class="avatar-placeholder" aria-label="Фото профиля — заглушка"></div>
+        </div>
+      </div>
+
+      <h1>Амин — Графический Дизайнер</h1>
+      <p class="hero-subtitle">Создаю инфографику, KV, обложки, презентации. Занимаюсь оформлением социальных сетей и полиграфической продукции</p>
+    </div>
+  </section>
+
+  <!-- 01 CASES -->
+  <section id="cases" class="section">
+    <div class="container">
+      <h2 class="section-title"><span class="num">01.</span> Мои кейсы</h2>
+
+      <div class="cases-grid">
+        <article class="case-card case-wide">
+          <div class="case-image ph"></div>
+          <h3>Создание карточек для маркетплейсов</h3>
+          <p>Разработка инфографики для товара</p>
+          <span class="tag tag-green">Инфографика</span>
+        </article>
+
+        <article class="case-card case-wide">
+          <div class="case-image ph"></div>
+          <h3>Оформление соц сетей и сообществ</h3>
+          <p>Описание кейса с кратким рассказом</p>
+          <span class="tag tag-blue">Соц сети</span>
+        </article>
+
+        <article class="case-card">
+          <div class="case-image ph"></div>
+          <h3>Полиграфическая продукция</h3>
+          <p>Описание кейса с кратким рассказом</p>
+          <span class="tag tag-pink">Полиграфия</span>
+        </article>
+
+        <article class="case-card">
+          <div class="case-image ph"></div>
+          <h3>Цифровые баннеры и обложки</h3>
+          <p>Описание кейса с кратким рассказом</p>
+          <span class="tag tag-yellow">Баннеры</span>
+        </article>
+
+        <article class="case-card">
+          <div class="case-image ph"></div>
+          <h3>Презентации для эфиров и выступлений</h3>
+          <p>Описание кейса с кратким рассказом</p>
+          <span class="tag tag-cyan">Презентации</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title"><span class="num">02.</span> Опыт работы</h2>
+
+      <div class="experience-grid">
+        <div class="exp-date">
+          октябрь 2024 год<br>—<br>текущее время
+        </div>
+        <div class="exp-body">
+          <p class="exp-company">Типография ООО «ФОТОКОПИР»</p>
+          <h3>Старший Менеджер Дизайнер</h3>
+
+          <!-- TODO(Амин): замени плейсхолдер ниже на реальное описание обязанностей -->
+          <p>Отвечаю за полный цикл оформления: от брифа клиента до финального макета. Разрабатываю инфографику, баннеры и рекламные материалы, слежу за сроками и качеством печати.</p>
+          <p>Взаимодействую с клиентами напрямую, подбираю визуальные решения под задачу и бюджет, контролирую препресс и финальную приёмку тиража.</p>
+
+          <ul class="exp-skills">
+            <li>Ответственность</li>
+            <li>Трудолюбие</li>
+            <li>Скорость работы</li>
+            <li>Коммуникация</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews" class="section">
+    <div class="container">
+      <h2 class="section-title">Отзывы о моей работе</h2>
+      <p class="section-subtitle">Взяты с места работы в Яндексе, так же отзывы моих клиентов</p>
+
+      <div class="reviews-grid" id="reviewsGrid"></div>
+    </div>
+  </section>
+
+  <!-- 03 ABOUT -->
+  <section id="about" class="section section-about">
+    <div class="container">
+      <h2 class="section-title"><span class="num">03.</span> Обо мне</h2>
+
+      <div class="about-grid">
+        <div class="about-photo">
+          <div class="about-photo-frame">
+            <div class="avatar-placeholder square" aria-label="Фото — заглушка"></div>
+            <svg class="about-scribble" viewBox="0 0 80 50" aria-hidden="true"><path d="M4 38 Q 20 4, 42 24 T 76 14"/></svg>
+            <span class="about-star" aria-hidden="true">✦</span>
+          </div>
+        </div>
+
+        <div class="about-body">
+          <!-- TODO(Амин): замени текст ниже на свой -->
+          <p class="about-lead">Меня зовут Амин, я графический дизайнер. Уже больше года создаю визуал, который помогает брендам продавать, выделяться и запоминаться.</p>
+          <p>Работаю в типографии «Фотокопир» и параллельно беру частные заказы: инфографика для маркетплейсов, баннеры, оформление соцсетей, презентации и полиграфия. Люблю чёткие брифы, адекватные сроки и честную обратную связь.</p>
+
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-num">50+</span>
+              <span class="stat-label">проектов</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">1+</span>
+              <span class="stat-label">год опыта</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">30+</span>
+              <span class="stat-label">клиентов</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-skills">
+        <h3 class="about-skills-title">Инструменты</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-head">
+              <span class="skill-icon skill-icon-figma" aria-hidden="true">F</span>
+              <div>
+                <span class="skill-name">Figma</span>
+                <span class="skill-level">Профи</span>
+              </div>
+            </div>
+            <div class="skill-bar"><span style="width:92%"></span></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-head">
+              <span class="skill-icon skill-icon-ps" aria-hidden="true">Ps</span>
+              <div>
+                <span class="skill-name">Photoshop</span>
+                <span class="skill-level">Мастер</span>
+              </div>
+            </div>
+            <div class="skill-bar"><span style="width:85%"></span></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-head">
+              <span class="skill-icon skill-icon-ai" aria-hidden="true">Ai</span>
+              <div>
+                <span class="skill-name">Illustrator</span>
+                <span class="skill-level">Знаток</span>
+              </div>
+            </div>
+            <div class="skill-bar"><span style="width:72%"></span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-services">
+        <span class="tag tag-green">Инфографика</span>
+        <span class="tag tag-cyan">Презентации</span>
+        <span class="tag tag-yellow">Баннеры</span>
+        <span class="tag tag-pink">Полиграфия</span>
+        <span class="tag tag-blue">Соцсети</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 CONTACTS -->
+  <section id="contacts" class="section section-contacts">
+    <div class="container">
+      <h2 class="section-title"><span class="num">04.</span> Контакты</h2>
+      <p class="section-subtitle">Расскажите о задаче — отвечу в течение дня</p>
+
+      <div class="contacts-grid">
+        <!-- TODO(Амин): замени ссылки-заглушки на свои реальные -->
+        <a class="contact-card" href="mailto:hello@example.com">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">hello@example.com</span>
+        </a>
+        <a class="contact-card" href="https://t.me/your_username" target="_blank" rel="noopener">
+          <span class="contact-label">Telegram</span>
+          <span class="contact-value">@your_username</span>
+        </a>
+        <a class="contact-card" href="https://wa.me/70000000000" target="_blank" rel="noopener">
+          <span class="contact-label">WhatsApp</span>
+          <span class="contact-value">+7 (000) 000-00-00</span>
+        </a>
+        <a class="contact-card" href="https://instagram.com/your_username" target="_blank" rel="noopener">
+          <span class="contact-label">Instagram</span>
+          <span class="contact-value">@your_username</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="footer-logo">A08</a>
+        <p class="footer-tagline">Графический дизайнер. Инфографика, баннеры, презентации и оформление соцсетей.</p>
+        <a href="#contacts" class="btn btn-light footer-cta">Обсудить проект</a>
+      </div>
+
+      <nav class="footer-nav" aria-label="Навигация в футере">
+        <span class="footer-heading">Навигация</span>
+        <a href="#cases">01. Мои кейсы</a>
+        <a href="#experience">02. Опыт работы</a>
+        <a href="#about">03. Обо мне</a>
+        <a href="#contacts">04. Контакты</a>
+      </nav>
+
+      <div class="footer-contacts">
+        <span class="footer-heading">Контакты</span>
+        <!-- TODO(Амин): замени на свои реальные данные -->
+        <a href="mailto:hello@example.com">hello@example.com</a>
+        <a href="https://t.me/your_username" target="_blank" rel="noopener">Telegram</a>
+        <a href="https://wa.me/70000000000" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+
+      <div class="footer-social">
+        <span class="footer-heading">Соцсети</span>
+        <div class="social-links">
+          <a href="https://t.me/your_username" target="_blank" rel="noopener" aria-label="Telegram">TG</a>
+          <a href="https://instagram.com/your_username" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+          <a href="https://behance.net/your_username" target="_blank" rel="noopener" aria-label="Behance">Be</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Амин Хамитджанов — Графический Дизайнер</span>
+      <a href="#top" class="back-to-top">Наверх ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
